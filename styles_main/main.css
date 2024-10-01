@@ -1,0 +1,143 @@
+.header {
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* Фиксированная высота */
+    position: fixed;
+    background-color: #3f5f84;
+    color: white;
+
+}
+
+.main-menu {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0;
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+.main-menu .btn-right{
+    margin-left:600px;
+}
+.btn:hover {
+    transition: color 0.5s, border-color 0, 5s;
+    color:#fdd6c0;
+
+}
+
+
+.text-center {
+    text-align: center;
+    padding: 4px;
+}
+
+.back{
+    background-color: #fdd6c0;
+}
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+body{
+    margin-top: 230px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.avatar {
+    height: 350px;
+    text-align: center;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.avatar img {
+    height: 100%;
+
+}
+
+
+.text-center {
+    text-align: center;
+
+}
+.bold{
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+
+
+
+.text-right {
+    text-align: right;
+
+}
+
+
+.text-left {
+    text-align: left;
+}
+
+table {
+    border-collapse: separate;
+    /* Ячейки не смыкаются друг с другом */
+}
+
+th,
+td {
+    padding: 10px 20px;
+    /* Внутренние отступы: 10px сверху и снизу, 20px справа и слева */
+    border: 1px solid #ffaf75;
+    /* Легкая граница для ячеек */
+}
+
+th {
+    background-color: #ffdfc9;
+    /* Цвет фона для заголовков */
+}
+
+.footer {
+    background-color: #3f5f84;
+    color: white;
+    padding: 40px 20px; /* Уменьшил padding с 40px до 20px по бокам для лучшего отображения */
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Центрируем элементы по горизонтали */
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer-info {
+    background-color: #3f5f84;
+    color: #ffffff;
+    text-align: left; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
